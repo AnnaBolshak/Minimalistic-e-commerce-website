@@ -1,0 +1,12 @@
+{
+  "name": "Final_Task",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d js",
+    "watch": "babel src -d js -w"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

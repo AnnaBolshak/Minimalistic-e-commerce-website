@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anna Bolshak">
+    <meta name="description" content="This is a Final Task(spring_JS)">
+    <meta name="viewport" content="width = device-width">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Final task by Bolshak Anna</title>
+</head>
+<body>
+<header>
+    <nav class="nav-wrapper" role="navigation" id="nav">
+        <div class="navbar">
+            <a href="start.html"><div class="c-header-logo m-hidden-inline">TL</div></a>
+            <a href="start.html"><div class="c-header-logo s-hidden-inline">Template</div></a>
+            <div class="header-right">
+                <div class="c-header-singup s-hidden-inline">E-mail sing up</div>
+                <div class="c-header-bag"><a href="shopping-bag.html">Bag <span class="c-header-bag-price" id="header-bag-price"></span> (<span class="c-header-bag-quantity" id="header-bag-quantity">0</span>)</a></div>
+                <div class="menu m-hidden-inline">
+                    <div class="wrapper-menu-icon">
+                        <div class="mobile-menu__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-links radio_buttons_wrapper">
+            <ul>
+                <li><a href="javascript:void(0);" class="menu__link radio_button is-active">Women</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Men</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Handbags</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Accessories</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Sale</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">New Arrivals</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Clerance</a></li>
+                <li><a href="javascript:void(0);" class="menu__link radio_button">Store Locator</a></li>
+            </ul>
+            <div id="search-block" class="c-header-search">
+                <form action="" method="post" class="search">
+                    <input type="search" name="" placeholder="Style Name" class="search__input" />
+                    <input type="button" name="" value="" class="search__submit" />
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="top-block-wrapper detail-page large-top-border">
+        <span class="back-to-catalog"><a href="catalog.html">< Back to catalog</a></span>
+    </div>
+    <span class="large-top-border"></span>
+    <div class="item-container">
+        <div class="photogallery-wrapper" id="photogallery-wrapper"></div>
+        <div class="item-info">
+            <div class="item-header">
+                <span class="item-name">
+                    Jacket-bomber texture
+                </span>
+                <span class="item-price">
+                    £140
+                </span>
+                <div class="item-note">
+                    Jacket-bomber with textured shine is a great alternative to ordinary denim.
+                </div>
+            </div>
+
+            <div class="item-properies">
+                <div id="product-size-selector" class="item-property radio_buttons_wrapper">
+                    <span class="item-property-name">Size</span>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button is-active" data-value="UK 52">UK 52</a></div>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button" data-value="UK 54">UK 54</a></div>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button" data-value="UK 56">UK 56</a></div>
+                </div>
+                <div id="product-color-selector" class="item-property radio_buttons_wrapper">
+                    <span class="item-property-name">Color</span>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button is-active" data-value="Gray">Gray</a></div>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button" data-value="Blue">Blue</a></div>
+                    <div class="prop-wrapper"><a href="javascript:void(0);" class="item-prop radio_button" data-value="Pink">Pink</a></div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="add-to-bag item__btn" id="add-to-bag" data-itemid="80d32566-d81c-4ba0-9edf-0eceda33902"> Add to bag</a>
+        </div>
+    </div>
+    <div class="catalog-banner large-top-border">
+        <div class="c-banner catalog-banner-1" style="background-image: url('img/banners/cat_1.jpg')">
+            <div class="catalog-banner-label">
+                <span class="c-baner1-name">Adidas Blue</span>
+                <span class="good-note roman14-italic">For men</span>
+            </div>
+        </div>
+        <div class="c-banner catalog-banner-2 m-show" style="background-image: url('img/banners/cat_2.jpg')">
+            <div class="catalog-banner-label">
+                <span class="c-baner1-name">Repair Patches</span>
+                <span class="c-baner2-description">£150.50</span>
+            </div>
+        </div>
+        <div class="c-banner catalog-banner-2 l-show" style="background-image: url('img/banners/cat_3.jpg')">
+            <div class="catalog-banner-label">
+                <span class="c-baner1-name red-line">Sale</span>
+                <span class="good-note roman14-italic">-70%</span>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-menu-container">
+        <div class="footer-link-block">
+            <h3>Quick Links</h3>
+            <ul class="footer-link-menu">
+                <li><a href="javascript:void(0);">Store locator</a></li>
+                <li><a href="javascript:void(0);">Gift cards</a></li>
+                <li><a href="javascript:void(0);">Size guide</a></li>
+                <li><a href="javascript:void(0);">About us</a></li>
+                <li><a href="javascript:void(0);">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-link-block">
+            <h3>Customer Care</h3>
+            <ul class="footer-link-menu">
+                <li><a href="javascript:void(0);">Customer service</a></li>
+                <li><a href="javascript:void(0);">Track my order</a></li>
+                <li><a href="javascript:void(0);">Return policy</a></li>
+                <li><a href="javascript:void(0);">Shopping & delivery</a></li>
+                <li><a href="javascript:void(0);">Contsct us</a></li>
+                <li><a href="javascript:void(0);">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-contacts-wrapper">
+        <div class="footer-contacts-container">
+            <div class="footer-contacts-block">
+                <h3>Questions</h3>
+                <a class="footer-tweet" fref="javascript:void(0);">Tweet us <strong>@template</strong></a>
+            </div>
+            <div class="footer-contacts-block">
+                <h3>Order by phone</h3>
+                <span class="footer-phone">8-800-409-47-12</span>
+            </div>
+
+        </div>
+        <div class="footer-delivery l-show">
+            We have our own delivery ervice which operates in 23 major European cities.
+            Delivery time - 3-5 days.
+        </div>
+        <ul class="sotial-links">
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="img/icons/fb_ico.png">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="img/icons/twi_ico.png">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-additional-wrapper">
+        <div class="footer-additional-block">
+            <ul class="footer-additional-menu">
+                <li>
+                    <a href="javascript:void(0);">
+                        Legal notice
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        Privacy policy
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        Site map
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright-block">
+            <span class="footer-copyright">© 2010–2015, The Template Group inc.</span>
+        </div>
+        <div class="footer-share-block">
+            <span class="footer-share">Share <span class="share-icon"><span class="c-share">1 437</span></span></span>
+        </div>
+    </div>
+</footer>
+
+<script src="js_library/lodash.min.js"></script>
+<script src="data/catalog.js"></script>
+<script src="js/common.js"></script>
+<script src="js/item.js"></script>
+<script src="js/item2_photogallery.js"></script>
+
+<script type="text/template" id="photos-switcher-template">
+    <div class="photogallery">
+        <div class="main-photo">
+            <a href="javascript:void(0);" class="big-photo__a">
+                <img src="<%-items[0].fullPath%>" class="big-photo__img">
+            </a>
+        </div>
+        <div class="switcher">
+            <% items.forEach(function(item, index) { %>
+            <a href="javascript:void(0);" class="a-preview-photo <%-index == 0 ? 'is-active' : ''%>" data-value="<%-item.fullPath%>">
+                <img src="<%-item.thumbnailPath%>" class="preview-photo">
+            </a>
+            <% }); %>
+        </div>
+    </div>
+</script>
+
+</body>
+</html>

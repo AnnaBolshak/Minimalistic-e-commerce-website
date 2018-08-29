@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'Roboto';
+    url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Roboto';
+    url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'),
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
